@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8A0510820418B80004B7A39 /* Items+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A0510620418B80004B7A39 /* Items+CoreDataClass.swift */; };
+		B8A0510920418B80004B7A39 /* Items+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A0510720418B80004B7A39 /* Items+CoreDataProperties.swift */; };
 		B8E3B71A20417A8E007F4C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E3B71920417A8E007F4C88 /* AppDelegate.swift */; };
 		B8E3B71C20417A8E007F4C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E3B71B20417A8E007F4C88 /* ViewController.swift */; };
 		B8E3B71F20417A8E007F4C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E3B71D20417A8E007F4C88 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8A0510620418B80004B7A39 /* Items+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Items+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B8A0510720418B80004B7A39 /* Items+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Items+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B8E3B71620417A8E007F4C88 /* CoreData_101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData_101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E3B71920417A8E007F4C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8E3B71B20417A8E007F4C88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		B8E3B70D20417A8E007F4C88 = {
 			isa = PBXGroup;
 			children = (
+				B8A0510620418B80004B7A39 /* Items+CoreDataClass.swift */,
+				B8A0510720418B80004B7A39 /* Items+CoreDataProperties.swift */,
 				B8E3B71820417A8E007F4C88 /* CoreData_101 */,
 				B8E3B71720417A8E007F4C88 /* Products */,
 			);
@@ -141,6 +147,8 @@
 			files = (
 				B8E3B71C20417A8E007F4C88 /* ViewController.swift in Sources */,
 				B8E3B72220417A8E007F4C88 /* CoreData_101.xcdatamodeld in Sources */,
+				B8A0510920418B80004B7A39 /* Items+CoreDataProperties.swift in Sources */,
+				B8A0510820418B80004B7A39 /* Items+CoreDataClass.swift in Sources */,
 				B8E3B71A20417A8E007F4C88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
